@@ -6,6 +6,8 @@ from dqn.agent import Agent
 from dqn.environment import GymEnvironment, SimpleGymEnvironment
 from config import get_config
 
+from functools import reduce
+
 flags = tf.app.flags
 
 # Model
